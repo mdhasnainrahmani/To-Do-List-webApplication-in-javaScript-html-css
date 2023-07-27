@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    user-select: none;
+}
+main{
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    width: 400px;
+    min-height: 500px;
+    background-color:rgba(137, 43, 226, 0.349);
+    padding: 15px;
+}
+#item{
+    width: 100%;
+    padding: 10px;
+}
+#to-do-box li {
+    background-color: rgb(127, 219, 145);
+    position: relative;
+    margin: 5px;
+    padding: 5px;
+}
+#to-do-box li  span{
+    position: absolute;
+    right: 10px;
+    top: 0px;
+    
+}
+.done{
+    text-decoration: line-through;
+    color: red;
+}
